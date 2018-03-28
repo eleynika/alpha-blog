@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   # root for welcome#home
   root 'welcome#home'
   get 'about', to: 'welcome#about'
+  
+  resources :articles
 end
